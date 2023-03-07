@@ -16,7 +16,10 @@ export default function Nav({ children }) {
       themer.hand(theme);
     }
   };
-
+  const handlelogout = ()=>
+  {
+    themer.handlogout();
+  }
   return (
     <nav
       class={
@@ -143,9 +146,11 @@ export default function Nav({ children }) {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="login">
+                {!themer.login?<Link className="nav-link" to="login">
                   Login
-                </Link>
+                </Link>:<Link className="nav-link" to="login" onClick={handlelogout}>
+                  Logout
+                </Link>}
               </li>
               <li className="nav-item">
                 <a className="nav-link">
