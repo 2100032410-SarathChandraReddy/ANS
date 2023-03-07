@@ -1,7 +1,7 @@
 import React from "react";
 import '../styles/About.css';
 import { useTheme } from "./themeContext";
-import { Navigate} from 'react-router-dom';
+
 
 export default function About({ children }) {
   const theme = useTheme();
