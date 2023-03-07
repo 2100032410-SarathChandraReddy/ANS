@@ -5,8 +5,6 @@ import { Navigate} from 'react-router-dom';
 
 export default function About({ children }) {
   const theme = useTheme();
-if(theme.login===true)
-{
   return (
     <>
       <div className={theme.theme === true ? "about_dark" : "about_light"}>
@@ -150,9 +148,4 @@ if(theme.login===true)
     </>
   );
 }
-if(theme.login===false){
-  return(
-    <Navigate to="/login" />
-  )
-}
-}
+
