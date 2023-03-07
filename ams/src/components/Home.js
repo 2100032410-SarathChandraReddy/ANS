@@ -98,74 +98,74 @@ export default function Home(children) {
 
         
 <div className="k">
-<h2 class="home_dis text-center display-4 text-decoration-underline">Our Products</h2>
+<h2 className="home_dis text-center display-4 text-decoration-underline">Our Products</h2>
 <div className="container-fluid "> 
-<h1 class="home_dis ">Bikes</h1>
+<h1 className="home_dis ">Bikes</h1>
 <br></br><br></br>
-<div class="home_grid home_main-content ">
-      <div class="home_card">
-              <div class="home_image">
+<div className="home_grid home_main-content ">
+      <div className="home_card">
+              <div className="home_image">
                 <img src={bounce1} alt="tree" />
               </div>
 
-              <div class="home_description">
+              <div className="home_description">
                 Hero Glamour XTEC Drum Booking for Ex-showroom Price (Candy
                 Blazing Red/Blue)
-                <div class="home_description_buttons">
+                <div className="home_description_buttons">
                   <h3>₹83,388</h3>
 
-                  <button type="button" class="btn btn-primary  ">
+                  <button type="button" className="btn btn-primary  ">
                     <small>View...</small>
                   </button>
                 </div>
               </div>
             </div>
-            <div class="home_card">
-              <div class="home_image">
+            <div className="home_card">
+              <div className="home_image">
                 <img src={bounce2} alt="tree" />
               </div>
 
-              <div class="home_description">
+              <div className="home_description">
                 Hero Xpulse 200 4V Booking for Ex-showroom Price (Sports
                 Red,Blue,Black)
                 <br />
-                <div class="home_description_buttons">
+                <div className="home_description_buttons">
                   <h3>₹1,37,496</h3>
 
-                  <button type="button" class="btn btn-primary  ">
+                  <button type="button" className="btn btn-primary  ">
                     <small>View...</small>
                   </button>
                 </div>
               </div>
             </div>
-            <div class="home_card">
-              <div class="home_image">
+            <div className="home_card">
+              <div className="home_image">
                 <img src={bounce3} alt="tree" />
               </div>
 
-              <div class="home_description">
+              <div className="home_description">
                 Hero Xtreme 160R Booking for Ex-showroom Price (Matt Axis
                 Grey)/(Matt Axis Red)
-                <div class="home_description_buttons">
+                <div className="home_description_buttons">
                   <h3>₹1,23,496</h3>
 
-                  <button type="button" class="btn btn-primary  ">
+                  <button type="button" className="btn btn-primary  ">
                     <small>View...</small>
                   </button>
                 </div>
               </div>
             </div>
-            <div class="home_card">
-              <div class="home_image">
+            <div className="home_card">
+              <div className="home_image">
              
               </div>
 
-              <div class="home_description  justify-content-center">
+              <div className="home_description  justify-content-center">
                
-                <div class="home_description_buttons">
+                <div className="home_description_buttons">
                   
                    <br></br><br></br><br></br><br></br><br></br>
-                  <Link to="/bikes"><p  class="btn btn-primary text-wrap">
+                  <Link to="/bikes"><p  className="btn btn-primary text-wrap">
                     <small>View more..</small>
                   </p></Link>
                 </div>
@@ -208,69 +208,69 @@ export default function Home(children) {
 
 <div className="k2">
 <div className="container-fluid "> 
-<h1 class="home_dis ">SpareParts</h1>
+<h1 className="home_dis ">SpareParts</h1>
 <br></br><br></br>
-<div class="home_grid home_main-content ">
-      <div class="home_card">
-              <div class="home_image">
+<div className="home_grid home_main-content ">
+      <div className="home_card">
+              <div className="home_image">
                 <img src={bounce4} alt="tree" />
               </div>
 
-              <div class="home_description">
+              <div className="home_description">
                <br></br>
-                <div class="home_description_buttons">
+                <div className="home_description_buttons">
                   <h3>₹1,338</h3>
 
-                  <button type="button" class="btn btn-primary  ">
+                  <button type="button" className="btn btn-primary  ">
                     <small>View...</small>
                   </button>
                 </div>
               </div>
             </div>
-            <div class="home_card">
-              <div class="home_image">
+            <div className="home_card">
+              <div className="home_image">
                 <img src={bounce5} alt="tree" />
               </div>
 
-              <div class="home_description">
+              <div className="home_description">
                 
                 
-                <div class="home_description_buttons">
+                <div className="home_description_buttons">
                   <h3>₹1,374</h3>
 
-                  <button type="button" class="btn btn-primary  ">
+                  <button type="button" className="btn btn-primary  ">
                     <small>View...</small>
                   </button>
                 </div>
               </div>
             </div>
-            <div class="home_card">
-              <div class="home_image">
+            <div className="home_card">
+              <div className="home_image">
                 <img src={bounce6} alt="tree" />
               </div>
 
-              <div class="home_description">
+              <div className="home_description">
               <br></br><br></br>
-                <div class="home_description_buttons">
+                <div className="home_description_buttons">
                   <h3>₹1,234</h3>
 
-                  <button type="button" class="btn btn-primary  ">
+                  <button type="button" className="btn btn-primary  ">
                     <small>View...</small>
                   </button>
                 </div>
               </div>
             </div>
-            <div class="home_card">
-              <div class="home_image">
+            <div className="home_card">
+              <div className="home_image">
              
               </div>
 
-              <div class="home_description  justify-content-center">
+              <div className="home_description  justify-content-center">
                
-                <div class="home_description_buttons">
+                <div className="home_description_buttons">
                   
                    <br></br><br></br><br></br><br></br><br></br>
-                  <Link to="/spareparts"><p  class="btn btn-primary text-wrap">
+                  <Link to="/spareparts"><p  className="btn btn-primary text-wrap">
                     <small>View more..</small>
                   </p></Link>
                 </div>
@@ -304,8 +304,8 @@ export default function Home(children) {
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                  <h2 class="text-center display-4 text-decoration-underline">Why Choose Us</h2>
-                  <div class="text-center h4">
+                  <h2 className="text-center display-4 text-decoration-underline">Why Choose Us</h2>
+                  <div className="text-center h4">
                     It is a long established fact that a reader will be
                     distracted by the readable content of a page when
                     <br /> looking at its layout. The point of using{" "}
@@ -316,7 +316,7 @@ export default function Home(children) {
               <div className="col-md-12">
                 <div className="choose_box">
                   <span>01</span>
-                  <p class="text-center h4">
+                  <p className="text-center h4">
                     It is a long established fact that a reader will be
                     distracted by the readable content of a page when looking at
                     its layout. The point of using Lorem Ipsum is that it has a
@@ -328,7 +328,7 @@ export default function Home(children) {
               <div className="col-md-12">
                 <div className="choose_box">
                   <span>02</span>
-                  <p class="h4">
+                  <p className="h4">
                     It is a long established fact that a reader will be
                     distracted by the readable content of a page when looking at
                     its layout. The point of using Lorem Ipsum is that it has a
@@ -340,7 +340,7 @@ export default function Home(children) {
               <div className="col-md-12">
                 <div className="choose_box">
                   <span>03</span>
-                  <p class="h4">
+                  <p className="h4">
                     It is a long established fact that a reader will be
                     distracted by the readable content of a page when looking at
                     its layout. The point of using Lorem Ipsum is that it has a
@@ -353,88 +353,88 @@ export default function Home(children) {
           </div>
         </div>
       </div>
-      <div class="container-fluid">
-      <section class="ftco-section">
-		<div class="container">
-			<div class="row justify-content-center">
-				<h2 class="text-center h1 text-decoration-underline">Contact Us</h2>
+      <div className="container-fluid">
+      <section className="ftco-section">
+		<div className="container">
+			<div className="row justify-content-center">
+				<h2 className="text-center h1 text-decoration-underline">Contact Us</h2>
 			</div>
-			<div class="row justify-content-center">
-				<div class="col-md-10">
-					<div class="wrapper">
-						<div class="row no-gutters">
-							<div class="col-md-6">
-								<div class="contact-wrap w-100 p-lg-5 p-4">
-									<h3 class="mb-4">Send us a message</h3>
-									<div id="form-message-warning" class="mb-4"></div> 
-				      		<div id="form-message-success" class="mb-4">
+			<div className="row justify-content-center">
+				<div className="col-md-10">
+					<div className="wrapper">
+						<div className="row no-gutters">
+							<div className="col-md-6">
+								<div className="contact-wrap w-100 p-lg-5 p-4">
+									<h3 className="mb-4">Send us a message</h3>
+									<div id="form-message-warning" className="mb-4"></div> 
+				      		<div id="form-message-success" className="mb-4">
 				            Your message was sent, thank you!
 				      		</div>
-									<form method="POST" id="contactForm" name="contactForm" class="contactForm">
-										<div class="row">
-											<div class="col-md-12">
-												<div class="form-group">
-													<input type="text" class="form-control" name="name" id="name" placeholder="Name"/>
+									<form method="POST" id="contactForm" name="contactForm" className="contactForm">
+										<div className="row">
+											<div className="col-md-12">
+												<div className="form-group">
+													<input type="text" className="form-control" name="name" id="name" placeholder="Name"/>
 												</div>
 											</div>
-											<div class="col-md-12"> 
-												<div class="form-group">
-													<input type="email" class="form-control" name="email" id="email" placeholder="Email"/>
+											<div className="col-md-12"> 
+												<div className="form-group">
+													<input type="email" className="form-control" name="email" id="email" placeholder="Email"/>
 												</div>
 											</div>
-											<div class="col-md-12">
-												<div class="form-group">
-													<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"/>
+											<div className="col-md-12">
+												<div className="form-group">
+													<input type="text" className="form-control" name="subject" id="subject" placeholder="Subject"/>
 												</div>
 											</div>
-											<div class="col-md-12">
-												<div class="form-group">
-													<textarea name="message" class="form-control" id="message" cols="30" rows="6" placeholder="Message"></textarea>
+											<div className="col-md-12">
+												<div className="form-group">
+													<textarea name="message" className="form-control" id="message" cols="30" rows="6" placeholder="Message"></textarea>
 												</div>
 											</div>
-											<div class="col-md-12">
-												<div class="form-group">
-													<input type="submit" value="Send Message" class="btn btn-primary"/>
-													<div class="submitting"></div>
+											<div className="col-md-12">
+												<div className="form-group">
+													<input type="submit" value="Send Message" className="btn btn-primary"/>
+													<div className="submitting"></div>
 												</div>
 											</div>
 										</div>
 									</form>
 								</div>
 							</div>
-							<div class="col-md-6 d-flex align-items-stretch">
-								<div class="info-wrap w-100 p-lg-5 p-4 img">
-									<p class="mb-4">We're open for any suggestion or just to have a chat</p>
-				        	<div class="dbox w-100 d-flex align-items-start">
-				        		<div class="icon d-flex align-items-center justify-content-center">
-				        			<span class="fa fa-map-marker"></span>
+							<div className="col-md-6 d-flex align-items-stretch">
+								<div className="info-wrap w-100 p-lg-5 p-4 img">
+									<p className="mb-4">We're open for any suggestion or just to have a chat</p>
+				        	<div className="dbox w-100 d-flex align-items-start">
+				        		<div className="icon d-flex align-items-center justify-content-center">
+				        			<span className="fa fa-map-marker"></span>
 				        		</div>
-				        		<div class="text pl-3">
+				        		<div className="text pl-3">
 					            <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
 					          </div>
 				          </div>
-				        	<div class="dbox w-100 d-flex align-items-center">
-				        		<div class="icon d-flex align-items-center justify-content-center">
-				        			<span class="fa fa-phone"></span>
+				        	<div className="dbox w-100 d-flex align-items-center">
+				        		<div className="icon d-flex align-items-center justify-content-center">
+				        			<span className="fa fa-phone"></span>
 				        		</div>
-				        		<div class="text pl-3">
+				        		<div className="text pl-3">
 					            <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
 					          </div>
 				          </div>
-				        	<div class="dbox w-100 d-flex align-items-center">
-				        		<div class="icon d-flex align-items-center justify-content-center">
-				        			<span class="fa fa-paper-plane"></span>
+				        	<div className="dbox w-100 d-flex align-items-center">
+				        		<div className="icon d-flex align-items-center justify-content-center">
+				        			<span className="fa fa-paper-plane"></span>
 				        		</div>
-				        		<div class="text pl-3">
+				        		<div className="text pl-3">
 					            <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
 					          </div>
 				          </div>
-				        	<div class="dbox w-100 d-flex align-items-center">
-				        		<div class="icon d-flex align-items-center justify-content-center">
-				        			<span class="fa fa-globe"></span>
+				        	<div className="dbox w-100 d-flex align-items-center">
+				        		<div className="icon d-flex align-items-center justify-content-center">
+				        			<span className="fa fa-globe"></span>
 				        		</div>
-				        		<div class="text pl-3">
-					            <p><span>Website</span> <a href="#">yoursite.com</a></p>
+				        		<div className="text pl-3">
+					            <p><span>Website</span> <a href="/">yoursite.com</a></p>
 					          </div>
 				          </div>
 			          </div>
