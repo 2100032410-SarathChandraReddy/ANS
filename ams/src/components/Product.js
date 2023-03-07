@@ -8,12 +8,13 @@ import bounce5 from "../media/bike5.png";
 import bounce6 from "../media/bike6.png";
 import bounce7 from "../media/bike7.png";
 import bounce8 from "../media/bike8.png";
-
+import { Navigate} from 'react-router-dom';
 import { useTheme } from "./themeContext";
 
 export default function Product({ children }) {
   const theme = useTheme();
-
+  if(theme.login===true)
+  {
   return (
         <div
           className={theme.theme === true ? "product_dark" : "product_white"}
@@ -164,4 +165,10 @@ export default function Product({ children }) {
           </div>
         </div>
   );
+}
+if(theme.login===false){
+  return(
+    <Navigate to="/login" />
+  )
+}
 }
